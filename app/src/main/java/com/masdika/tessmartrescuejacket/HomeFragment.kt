@@ -10,7 +10,6 @@ import com.masdika.tessmartrescuejacket.databinding.FragmentHomeBinding
 private var _binding: FragmentHomeBinding? = null
 private val binding get() = _binding!!
 
-
 class HomeFragment : Fragment() {
 
     override fun onCreateView(

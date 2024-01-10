@@ -30,7 +30,7 @@ android {
     kotlinOptions {
         jvmTarget = '1.8'
     }
-    buildFeatures{
+    buildFeatures {
         viewBinding = true
     }
 }
@@ -45,6 +45,9 @@ dependencies {
     androidTestImplementation 'androidx.test.ext:junit:1.1.5'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.1'
 
-    //Animated Bottom Bar
+    // Animated Bottom Bar
     implementation 'nl.joery.animatedbottombar:library:1.1.0'
+
+    // Maps
+    implementation 'com.google.android.gms:play-services-maps:18.2.0'
 }
